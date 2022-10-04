@@ -1,0 +1,149 @@
+:root {
+  --background-dark: #d4f5ad;
+  --black: #000;
+}
+
+html {
+  background-color: var(--background-dark);
+  color: var(--black);
+  height: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+/** navigation **/
+.navigation {
+  background: -moz-linear-gradient(top, #7fb73a, skyblue);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#7fb73a),
+    to(rgb(157, 203, 221))
+  );
+
+  -moz-box-shadow: 1px 1px 3px #292929;
+  -webkit-box-shadow: 1px 1px 3px #292929;
+  box-shadow: 1px 1px 3px #292929;
+  color: #454545;
+  text-shadow: 0 1px 0 white;
+  padding: 1rem;
+}
+
+.navigation .nav-pills {
+  text-align: right;
+  margin: 0.6rem 1rem;
+}
+
+.navigation .link {
+  color: black;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.navigation .link-active {
+  font-weight: bold;
+}
+
+.header {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.container2 {
+  width: 300px;
+  margin: auto auto;
+}
+
+label,
+input {
+  display: block;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+label {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+input {
+  border-radius: 5px;
+  padding: 0.5rem;
+  border: transparent;
+  font-size: large;
+  margin: 1rem 0;
+}
+
+#calculate-number {
+  margin: 0.5rem auto;
+  display: block;
+}
+
+#calculate-number {
+  background-color: var(--background-dark);
+  border: 2px solid var(--black);
+  color: var(--black);
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: var(--black);
+  margin: auto;
+  display: block;
+}
+
+#output-container {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: x-large;
+  border-color: var(--black);
+  border-width: medium;
+  border-radius: 5px;
+}
+
+a,
+img,
+li {
+  display: inline;
+}
+
+img {
+  width: 40px;
+  padding: 0.2rem;
+}
+.footer {
+  background-color: #5e832d;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+}
+
+.footer .link {
+  color: white;
+  transition: 0.3s;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.footer .link:hover {
+  color: rgba(255, 255, 255, 0.621);
+}
+
+.footer .footer-header {
+  font-weight: bold;
+  font-size: large;
+  margin-bottom: 10px;
+}
+
+.footer ul {
+  padding-inline-start: 0px;
+  margin-bottom: 10px;
+}
