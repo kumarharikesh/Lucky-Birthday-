@@ -7,23 +7,10 @@ const reset = document.querySelector("#clear");
 const inputNumberValue = Number(inputNumber.value);
 const dateValue = date.value;
 
-// const dobSum = (date) => {
-
-//     let sum = 0;
-//     date = date.replaceAll("-", "");
-//     console.log(date);
-//     for (let digit of date) {
-//       sum = sum + Number(digit);
-//       console.log(digit);
-//     }
-//     return sum;
-// };
-
 // Calculating the luck
 function isLuckyNumber() {
 
     let sum = 0;
-    // dateValue = dateValue.replaceAll("-", "");
     console.log(inputNumberValue);
     for (let digit of dateValue) {
         if(!isNaN(digit)){
