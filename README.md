@@ -1,16 +1,17 @@
-# Emoji Interpreter
+# Lucky Birthday
 Recent update September, 2022<br/>
 
-I struggle with understanding the emojis. Do you too? If yes, then see this library of emojis with meaning.
+A website which can help you to check whether your birthday is lucky or not. It calculates your birth digit sum and takes modulo by your lucky number.
 
 <br/>preview<br/>
-![image](https://user-images.githubusercontent.com/43793294/194758983-25dd7b07-8305-4ebb-9021-34484b5328c6.png)
+![image](https://user-images.githubusercontent.com/43793294/195976608-f623193b-221c-4b96-bbda-739c4d5b13d8.png)
 <br/>
 
 # How to Use:
- - Search emoji by entering emoji symbol or text in input bar.
+ - Select your date of birth.
+ - Enter your lucky number then click on **Check** button &
  - Output will be shown below.
- - Click on **Clear All** to reset the search bar.
+ - Click on **Clear** to reset the feed.
  
 # Tech Stack:
 
@@ -20,7 +21,7 @@ I struggle with understanding the emojis. Do you too? If yes, then see this libr
 
 # Project Link
 
-https://emoji-interpreter0.netlify.app/
+https://lucky-birthday0.netlify.app/
 
 <br/>
 <br/>
